@@ -1,0 +1,23 @@
+project:
+  name: helidon-quickstart-se
+  version: 1.0.0-SNAPSHOT
+  description: helidon-quickstart-se
+  longDescription: A simple helidon-quickstart-se quickstart
+  website: https://acme.com/app
+  authors:
+    - jlengrand
+  license: Apache-2
+  java:
+    groupId: io.helidon.examples.quickstart.se
+    version: 8
+  extraProperties:
+    inceptionYear: 2021
+
+release:
+  github:
+    owner: jlengrand
+
+distributions:
+  app:
+    artifacts:
+      - path: target/helidon-quickstart-se.jar
